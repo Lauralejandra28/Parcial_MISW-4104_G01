@@ -13,6 +13,7 @@ import { VehiculoService } from './vehiculo.service';
     HttpClientModule
   ],
   declarations: [VehiculosComponent],
-  exports: [VehiculosComponent]
+  exports: [VehiculosComponent],
+  
 })
 export class VehiculosModule { }

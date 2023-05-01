@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Vehiculo } from './Vehiculo';
 
@@ -12,7 +13,7 @@ import { environment } from '../../environments/environment';
 
 export class VehiculoService {
   private apiUrl = environment.baseUrl + 'courses.json';
-  
+
   constructor(private http: HttpClient) { }
 
   getVehiculos(): Observable<Vehiculo[]> {

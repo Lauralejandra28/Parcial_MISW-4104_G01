@@ -1,2 +1,17 @@
-<h1 class="display-2 p-3">
-    tuSegundazo.com</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Marca</th>
+            <th>Línea</th>
+            <th>Modelo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let vehiculo">
+            <td>{{ vehiculo.marca }}</td>
+            <td>{{ vehiculo.linea }}</td>
+            <td>{{ vehiculo.modelo }}</td>
+        </tr>
+    </tbody>
+</table>
