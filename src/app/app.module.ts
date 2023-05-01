@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { VehiculosModule } from './vehiculos/vehiculos.module';
 import { visitAll } from '@angular/compiler';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,7 +14,7 @@ import { visitAll } from '@angular/compiler';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    VehiculosModule
+    VehiculosModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
